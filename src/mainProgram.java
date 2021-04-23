@@ -13,6 +13,8 @@ public class mainProgram {
 
     static String str = "";
 
+    static char [] kata2;
+
 
     static void enkripsi(char []kataEnkripsi, int geserKarakter){
 
@@ -45,13 +47,23 @@ public class mainProgram {
 
     public static void main(String[] args) {
 
-         System.out.println("Masukkan kata yang akan dienkripsi : ");
+         System.out.println("Masukkan kata yang akan dienkripsi daaan didekripsi : ");
          kata = input.next().toCharArray();
 
          System.out.println("Masukkan angka pergeseran huruf : ");
          geser = input.nextInt();
 
          enkripsi(kata,geser);
+
+         char[] kata2 = str.toCharArray();
+
+         fungsiDekripsi.dekripsi(kata2,geser);
+
+
+
+
+
+
 
 
 
